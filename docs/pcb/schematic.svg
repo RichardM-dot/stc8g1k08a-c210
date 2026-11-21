@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1600" viewBox="0 0 2400 1600">
+<rect x="0.00" y="0.00" width="2400.00" height="1600.00" rx="0.00" fill="#fbf8ef" stroke="none" stroke-width="0" opacity="1.0"/>
+<rect x="26.00" y="26.00" width="2348.00" height="1548.00" rx="10.00" fill="none" stroke="#b9a57a" stroke-width="2.0" opacity="1.0"/>
+<rect x="26.00" y="26.00" width="2348.00" height="92.00" rx="10.00" fill="#efe6d2" stroke="#b9a57a" stroke-width="1.2" opacity="1.0"/>
+<text x="52.00" y="70.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="32" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="1">C210 PEN CONTROLLER</text>
+<text x="52.00" y="98.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="15" fill="#5d6b70" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">System schematic / net-label view · STC8G1K08A-8PIN · 5V/3A USB-C · JBC C210 · MAX31855</text>
+<text x="2348.00" y="70.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="24" fill="#1d2a30" text-anchor="end" font-weight="bold" opacity="1.0" letter-spacing="0">SCHEMATIC</text>
+<text x="2348.00" y="98.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#5d6b70" text-anchor="end" font-weight="normal" opacity="1.0" letter-spacing="0">REV 1.0 · 2026-11-21 · ZCode</text>
+<rect x="40.00" y="140.00" width="700.00" height="400.00" rx="8.00" fill="#fdfbf4" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<rect x="40.00" y="140.00" width="700.00" height="34.00" rx="8.00" fill="#efe6d2" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<rect x="40.00" y="160.00" width="700.00" height="14.00" rx="0.00" fill="#efe6d2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="54.00" y="163.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="17" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0.5">1 · USB-C 5V/3A INPUT &amp; PROTECTION</text>
+<rect x="58.00" y="188.00" width="670.00" height="27.00" rx="3.00" fill="#e8dfca" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="65.00" y="207.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">REF</text>
+<text x="145.00" y="207.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">VALUE</text>
+<text x="265.00" y="207.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">CONNECTION</text>
+<rect x="58.00" y="215.00" width="670.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="65.00" y="234.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">J1</text>
+<text x="145.00" y="234.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">USB-C 16P</text>
+<text x="265.00" y="234.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">VBUS→F1; CC1→R1 5.1k→GND; CC2→R2 5.1k→GND</text>
+<text x="65.00" y="261.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">F1</text>
+<text x="145.00" y="261.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">PTC 3A</text>
+<text x="265.00" y="261.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">VBUS→F1→SW1; hold 3A / trip 6A</text>
+<rect x="58.00" y="269.00" width="670.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="65.00" y="288.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">SW1</text>
+<text x="145.00" y="288.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">5V 3A</text>
+<text x="265.00" y="288.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">F1→SW1→+5V</text>
+<text x="65.00" y="315.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">D1</text>
+<text x="145.00" y="315.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">SMAJ5.0A</text>
+<text x="265.00" y="315.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+5V→GND TVS</text>
+<rect x="58.00" y="323.00" width="670.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="65.00" y="342.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">C1</text>
+<text x="145.00" y="342.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">100µF</text>
+<text x="265.00" y="342.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+5V→GND bulk</text>
+<text x="65.00" y="369.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">C2</text>
+<text x="145.00" y="369.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">10µF</text>
+<text x="265.00" y="369.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+5V→GND</text>
+<rect x="58.00" y="377.00" width="670.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="65.00" y="396.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">C3</text>
+<text x="145.00" y="396.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">0.1µF</text>
+<text x="265.00" y="396.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+5V→GND</text>
+<text x="65.00" y="423.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">R1/R2</text>
+<text x="145.00" y="423.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">5.1k</text>
+<text x="265.00" y="423.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">CC1/CC2→GND (5V sink)</text>
+<rect x="58.00" y="188.00" width="670.00" height="243.00" rx="0.00" fill="none" stroke="#d8c9a9" stroke-width="0.8" opacity="1.0"/>
+<rect x="520.00" y="347.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#c0392b" stroke-width="1.2" opacity="1.0"/>
+<text x="529.00" y="365.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c0392b" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">+5V</text>
+<rect x="58.00" y="487.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#5d6b70" stroke-width="1.2" opacity="1.0"/>
+<text x="67.00" y="505.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#5d6b70" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">GND</text>
+<rect x="770.00" y="140.00" width="420.00" height="300.00" rx="8.00" fill="#fdfbf4" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<rect x="770.00" y="140.00" width="420.00" height="34.00" rx="8.00" fill="#efe6d2" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<rect x="770.00" y="160.00" width="420.00" height="14.00" rx="0.00" fill="#efe6d2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="784.00" y="163.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="17" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0.5">2 · 3.3V LDO</text>
+<rect x="788.00" y="188.00" width="390.00" height="27.00" rx="3.00" fill="#e8dfca" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="795.00" y="207.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">REF</text>
+<text x="875.00" y="207.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">VALUE</text>
+<text x="1005.00" y="207.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">CONNECTION</text>
+<rect x="788.00" y="215.00" width="390.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="795.00" y="234.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">U3</text>
+<text x="875.00" y="234.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">AMS1117-3.3</text>
+<text x="1005.00" y="234.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">IN=+5V; OUT=+3V3; GND; tab=OUT</text>
+<text x="795.00" y="261.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">C4</text>
+<text x="875.00" y="261.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">10µF</text>
+<text x="1005.00" y="261.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+5V→GND</text>
+<rect x="788.00" y="269.00" width="390.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="795.00" y="288.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">C5</text>
+<text x="875.00" y="288.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">10µF</text>
+<text x="1005.00" y="288.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+3V3→GND</text>
+<text x="795.00" y="315.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">C6</text>
+<text x="875.00" y="315.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">0.1µF</text>
+<text x="1005.00" y="315.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+3V3→GND</text>
+<rect x="788.00" y="188.00" width="390.00" height="135.00" rx="0.00" fill="none" stroke="#d8c9a9" stroke-width="0.8" opacity="1.0"/>
+<rect x="930.00" y="387.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#2c6fbb" stroke-width="1.2" opacity="1.0"/>
+<text x="939.00" y="405.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#2c6fbb" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">+3V3</text>
+<rect x="1220.00" y="140.00" width="1140.00" height="560.00" rx="8.00" fill="#fdfbf4" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<rect x="1220.00" y="140.00" width="1140.00" height="34.00" rx="8.00" fill="#efe6d2" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<rect x="1220.00" y="160.00" width="1140.00" height="14.00" rx="0.00" fill="#efe6d2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1234.00" y="163.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="17" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0.5">3 · HEATER POWER STAGE &amp; 74HCT4053 ISOLATION</text>
+<rect x="1240.00" y="188.00" width="640.00" height="27.00" rx="3.00" fill="#e8dfca" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="207.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">REF</text>
+<text x="1327.00" y="207.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">VALUE</text>
+<text x="1487.00" y="207.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">CONNECTION</text>
+<rect x="1240.00" y="215.00" width="640.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="234.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">F2</text>
+<text x="1327.00" y="234.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">KSD9700 400°C</text>
+<text x="1487.00" y="234.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+5V→F2→J4 pin1 (NC, series in heater)</text>
+<text x="1247.00" y="261.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">J4</text>
+<text x="1327.00" y="261.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">2-pin 2.54</text>
+<text x="1487.00" y="261.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">pin1=+5V via F2; pin2=HEAT_P</text>
+<rect x="1240.00" y="269.00" width="640.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="288.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">J2</text>
+<text x="1327.00" y="288.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">JST XH 2p</text>
+<text x="1487.00" y="288.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">pin1=HEAT_P; pin2=HEAT_N (C210 head)</text>
+<text x="1247.00" y="315.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">Q1</text>
+<text x="1327.00" y="315.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">AOD4184</text>
+<text x="1487.00" y="315.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">D=HEAT_N; S=GND; G=R3 100Ω←P5.4</text>
+<rect x="1240.00" y="323.00" width="640.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="342.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">R3</text>
+<text x="1327.00" y="342.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">100Ω</text>
+<text x="1487.00" y="342.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">P5.4→Q1 gate</text>
+<text x="1247.00" y="369.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">R4</text>
+<text x="1327.00" y="369.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">1k</text>
+<text x="1487.00" y="369.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">Q1 gate→GND (power-up off)</text>
+<rect x="1240.00" y="377.00" width="640.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="396.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">D2</text>
+<text x="1327.00" y="396.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">SS34</text>
+<text x="1487.00" y="396.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">A=HEAT_N; K=HEAT_P (freewheel)</text>
+<text x="1247.00" y="423.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">U2</text>
+<text x="1327.00" y="423.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">74HCT4053</text>
+<text x="1487.00" y="423.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">X0=HEAT_P; Y0=HEAT_N; X→R9 1k→T_P; Y→R10 1k→T_N</text>
+<rect x="1240.00" y="431.00" width="640.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="450.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">R5/R6</text>
+<text x="1327.00" y="450.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">100Ω/10k</text>
+<text x="1487.00" y="450.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">P5.4→R5→INH; INH→R6→GND</text>
+<text x="1247.00" y="477.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">R9/R10</text>
+<text x="1327.00" y="477.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">1k</text>
+<text x="1487.00" y="477.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">U2 X/Y→T_P/T_N (series, after switch)</text>
+<rect x="1240.00" y="188.00" width="640.00" height="297.00" rx="0.00" fill="none" stroke="#d8c9a9" stroke-width="0.8" opacity="1.0"/>
+<rect x="1240.00" y="487.00" width="72.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#c0392b" stroke-width="1.2" opacity="1.0"/>
+<text x="1249.00" y="505.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c0392b" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">HEAT_P</text>
+<rect x="1370.00" y="487.00" width="72.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#c0392b" stroke-width="1.2" opacity="1.0"/>
+<text x="1379.00" y="505.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c0392b" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">HEAT_N</text>
+<rect x="1500.00" y="487.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#c46a2b" stroke-width="1.2" opacity="1.0"/>
+<text x="1509.00" y="505.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c46a2b" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">GATE</text>
+<rect x="1610.00" y="487.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#8e44ad" stroke-width="1.2" opacity="1.0"/>
+<text x="1619.00" y="505.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#8e44ad" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">INH</text>
+<rect x="1710.00" y="487.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#b9770e" stroke-width="1.2" opacity="1.0"/>
+<text x="1719.00" y="505.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#b9770e" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">T_P</text>
+<rect x="1810.00" y="487.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#b9770e" stroke-width="1.2" opacity="1.0"/>
+<text x="1819.00" y="505.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#b9770e" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">T_N</text>
+<rect x="2050.00" y="487.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#c0392b" stroke-width="1.2" opacity="1.0"/>
+<text x="2059.00" y="505.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c0392b" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">+5V</text>
+<rect x="2140.00" y="487.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#5d6b70" stroke-width="1.2" opacity="1.0"/>
+<text x="2149.00" y="505.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#5d6b70" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">GND</text>
+<line x1="1240.00" y1="620.00" x2="2340.00" y2="620.00" stroke="#3aa76d" stroke-width="4" opacity="1.0" stroke-linecap="round"/>
+<line x1="2340.00" y1="620.00" x2="2329.12" y2="614.93" stroke="#3aa76d" stroke-width="4" opacity="1.0" stroke-linecap="round"/>
+<line x1="2340.00" y1="620.00" x2="2329.12" y2="625.07" stroke="#3aa76d" stroke-width="4" opacity="1.0" stroke-linecap="round"/>
+<text x="1790.00" y="610.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="middle" font-weight="normal" opacity="1.0" letter-spacing="0">+5V → F2 → J4 → HEAT_P → C210 → HEAT_N → Q1 → GND</text>
+<rect x="40.00" y="570.00" width="1140.00" height="460.00" rx="8.00" fill="#fdfbf4" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<rect x="40.00" y="570.00" width="1140.00" height="34.00" rx="8.00" fill="#efe6d2" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<rect x="40.00" y="590.00" width="1140.00" height="14.00" rx="0.00" fill="#efe6d2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="54.00" y="593.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="17" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0.5">4 · MAX31855 SENSOR FRONT-END</text>
+<rect x="58.00" y="618.00" width="620.00" height="27.00" rx="3.00" fill="#e8dfca" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="65.00" y="637.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">REF</text>
+<text x="145.00" y="637.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">VALUE</text>
+<text x="265.00" y="637.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">CONNECTION</text>
+<rect x="58.00" y="645.00" width="620.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="65.00" y="664.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">U1</text>
+<text x="145.00" y="664.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">MAX31855</text>
+<text x="265.00" y="664.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">T+=T_P; T-=T_N; VCC=+3V3; SCK/SO/CS→MCU</text>
+<text x="65.00" y="691.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">R7/R8</text>
+<text x="145.00" y="691.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">1M</text>
+<text x="265.00" y="691.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">T_P/T_N→GND (bias)</text>
+<rect x="58.00" y="699.00" width="620.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="65.00" y="718.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">C8</text>
+<text x="145.00" y="718.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">100nF</text>
+<text x="265.00" y="718.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">T_P–T_N differential filter</text>
+<text x="65.00" y="745.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">C9/C10</text>
+<text x="145.00" y="745.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">10nF</text>
+<text x="265.00" y="745.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">T_P/T_N→GND common-mode filter</text>
+<rect x="58.00" y="753.00" width="620.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="65.00" y="772.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">D3/D4</text>
+<text x="145.00" y="772.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">BAT54S</text>
+<text x="265.00" y="772.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">T_P/T_N clamp: pin3=signal; pin1=GND; pin2=+3V3</text>
+<text x="65.00" y="799.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">C11</text>
+<text x="145.00" y="799.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">0.1µF</text>
+<text x="265.00" y="799.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">U1 VCC→GND</text>
+<rect x="58.00" y="807.00" width="620.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="65.00" y="826.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">R13</text>
+<text x="145.00" y="826.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">10k</text>
+<text x="265.00" y="826.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">CS→+3V3</text>
+<text x="65.00" y="853.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">R17</text>
+<text x="145.00" y="853.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">10k</text>
+<text x="265.00" y="853.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">SO→GND (absent chip reads 0)</text>
+<rect x="58.00" y="618.00" width="620.00" height="243.00" rx="0.00" fill="none" stroke="#d8c9a9" stroke-width="0.8" opacity="1.0"/>
+<rect x="700.00" y="747.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#b9770e" stroke-width="1.2" opacity="1.0"/>
+<text x="709.00" y="765.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#b9770e" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">T_P</text>
+<rect x="790.00" y="747.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#b9770e" stroke-width="1.2" opacity="1.0"/>
+<text x="799.00" y="765.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#b9770e" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">T_N</text>
+<rect x="880.00" y="747.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#2e7d32" stroke-width="1.2" opacity="1.0"/>
+<text x="889.00" y="765.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">SCK</text>
+<rect x="960.00" y="747.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#2e7d32" stroke-width="1.2" opacity="1.0"/>
+<text x="969.00" y="765.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">SO</text>
+<rect x="1030.00" y="747.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#2e7d32" stroke-width="1.2" opacity="1.0"/>
+<text x="1039.00" y="765.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">CS</text>
+<rect x="700.00" y="887.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#2c6fbb" stroke-width="1.2" opacity="1.0"/>
+<text x="709.00" y="905.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#2c6fbb" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">+3V3</text>
+<rect x="790.00" y="887.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#5d6b70" stroke-width="1.2" opacity="1.0"/>
+<text x="799.00" y="905.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#5d6b70" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">GND</text>
+<text x="58.00" y="990.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#c0392b" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">关键：加热关断时 4053 把约 5V 共模送到 T+/T-；1k 串联 + BAT54S 钳位到 3V3/GND，保护 MAX31855 输入。</text>
+<rect x="1220.00" y="730.00" width="1140.00" height="670.00" rx="8.00" fill="#fdfbf4" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<rect x="1220.00" y="730.00" width="1140.00" height="34.00" rx="8.00" fill="#efe6d2" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<rect x="1220.00" y="750.00" width="1140.00" height="14.00" rx="0.00" fill="#efe6d2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1234.00" y="753.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="17" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0.5">5 · MCU / BUTTON / LED / ISP</text>
+<rect x="1240.00" y="778.00" width="730.00" height="27.00" rx="3.00" fill="#e8dfca" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="797.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">REF/PIN</text>
+<text x="1337.00" y="797.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">SIGNAL</text>
+<text x="1477.00" y="797.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">CONNECTION</text>
+<rect x="1240.00" y="805.00" width="730.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="824.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">U4</text>
+<text x="1337.00" y="824.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">STC8G1K08A</text>
+<text x="1477.00" y="824.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">1=P5.4 2=VCC 3=P5.5 4=GND 5=P3.0 6=P3.1 7=P3.2 8=P3.3</text>
+<text x="1247.00" y="851.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">P3.0</text>
+<text x="1337.00" y="851.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">SCK</text>
+<text x="1477.00" y="851.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">→MAX31855 SCK / ISP RX</text>
+<rect x="1240.00" y="859.00" width="730.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="878.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">P3.1</text>
+<text x="1337.00" y="878.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">SO</text>
+<text x="1477.00" y="878.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">←MAX31855 SO / ISP TX</text>
+<text x="1247.00" y="905.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">P3.2</text>
+<text x="1337.00" y="905.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">CS</text>
+<text x="1477.00" y="905.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">→MAX31855 CS (R13 10k↑)</text>
+<rect x="1240.00" y="913.00" width="730.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="932.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">P3.3</text>
+<text x="1337.00" y="932.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">KEY</text>
+<text x="1477.00" y="932.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">SW2→GND; R15 10k↑; C14 100nF→GND</text>
+<text x="1247.00" y="959.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">P5.4</text>
+<text x="1337.00" y="959.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">GATE/INH</text>
+<text x="1477.00" y="959.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">R3→Q1 gate; R5→U2 INH; R4 1k↓</text>
+<rect x="1240.00" y="967.00" width="730.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="986.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">P5.5</text>
+<text x="1337.00" y="986.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">LED</text>
+<text x="1477.00" y="986.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">R14 330Ω→LED1→GND</text>
+<text x="1247.00" y="1013.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">J3</text>
+<text x="1337.00" y="1013.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">ISP 4pin</text>
+<text x="1477.00" y="1013.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">1=+3V3 2=GND 3=P3.0 4=P3.1</text>
+<rect x="1240.00" y="1021.00" width="730.00" height="27.00" rx="0.00" fill="#f7f1e2" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="1247.00" y="1040.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">LED2</text>
+<text x="1337.00" y="1040.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">green</text>
+<text x="1477.00" y="1040.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+3V3→R16 1k→LED2→GND</text>
+<text x="1247.00" y="1067.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">C12/C13</text>
+<text x="1337.00" y="1067.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">0.1µF/10µF</text>
+<text x="1477.00" y="1067.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">U4 VCC→GND</text>
+<rect x="1240.00" y="778.00" width="730.00" height="297.00" rx="0.00" fill="none" stroke="#d8c9a9" stroke-width="0.8" opacity="1.0"/>
+<rect x="1240.00" y="1107.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#2e7d32" stroke-width="1.2" opacity="1.0"/>
+<text x="1249.00" y="1125.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">SCK</text>
+<rect x="1320.00" y="1107.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#2e7d32" stroke-width="1.2" opacity="1.0"/>
+<text x="1329.00" y="1125.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">SO</text>
+<rect x="1400.00" y="1107.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#2e7d32" stroke-width="1.2" opacity="1.0"/>
+<text x="1409.00" y="1125.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#2e7d32" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">CS</text>
+<rect x="1480.00" y="1107.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#8e44ad" stroke-width="1.2" opacity="1.0"/>
+<text x="1489.00" y="1125.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#8e44ad" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">KEY</text>
+<rect x="1570.00" y="1107.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#c46a2b" stroke-width="1.2" opacity="1.0"/>
+<text x="1579.00" y="1125.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c46a2b" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">GATE</text>
+<rect x="1670.00" y="1107.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#c0392b" stroke-width="1.2" opacity="1.0"/>
+<text x="1679.00" y="1125.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#c0392b" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">LED</text>
+<rect x="1770.00" y="1107.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#2c6fbb" stroke-width="1.2" opacity="1.0"/>
+<text x="1779.00" y="1125.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#2c6fbb" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">+3V3</text>
+<rect x="1870.00" y="1107.00" width="60.00" height="26.00" rx="5.00" fill="#ffffff" stroke="#5d6b70" stroke-width="1.2" opacity="1.0"/>
+<text x="1879.00" y="1125.00" font-family="SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#5d6b70" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">GND</text>
+<line x1="700.00" y1="300.00" x2="770.00" y2="300.00" stroke="#3aa76d" stroke-width="4" opacity="1.0" stroke-linecap="round"/>
+<line x1="770.00" y1="300.00" x2="759.12" y2="294.93" stroke="#3aa76d" stroke-width="4" opacity="1.0" stroke-linecap="round"/>
+<line x1="770.00" y1="300.00" x2="759.12" y2="305.07" stroke="#3aa76d" stroke-width="4" opacity="1.0" stroke-linecap="round"/>
+<text x="735.00" y="288.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#c0392b" text-anchor="middle" font-weight="normal" opacity="1.0" letter-spacing="0">+5V</text>
+<line x1="740.00" y1="480.00" x2="1240.00" y2="480.00" stroke="#3aa76d" stroke-width="4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1240.00" y1="480.00" x2="1229.12" y2="474.93" stroke="#3aa76d" stroke-width="4" opacity="1.0" stroke-linecap="round"/>
+<line x1="1240.00" y1="480.00" x2="1229.12" y2="485.07" stroke="#3aa76d" stroke-width="4" opacity="1.0" stroke-linecap="round"/>
+<text x="990.00" y="468.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#c0392b" text-anchor="middle" font-weight="normal" opacity="1.0" letter-spacing="0">+5V (heater)</text>
+<line x1="1080.00" y1="400.00" x2="1080.00" y2="570.00" stroke="#2f8f5b" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<line x1="1080.00" y1="570.00" x2="1085.07" y2="559.12" stroke="#2f8f5b" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<line x1="1080.00" y1="570.00" x2="1074.93" y2="559.12" stroke="#2f8f5b" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<text x="1092.00" y="485.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#2c6fbb" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+3V3</text>
+<line x1="900.00" y1="400.00" x2="1220.00" y2="760.00" stroke="#2f8f5b" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<line x1="1220.00" y1="760.00" x2="1216.57" y2="748.50" stroke="#2f8f5b" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<line x1="1220.00" y1="760.00" x2="1208.98" y2="755.24" stroke="#2f8f5b" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<text x="1055.00" y="590.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#2c6fbb" text-anchor="middle" font-weight="normal" opacity="1.0" letter-spacing="0">+3V3</text>
+<line x1="1140.00" y1="700.00" x2="1220.00" y2="830.00" stroke="#b9770e" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<line x1="1220.00" y1="830.00" x2="1218.62" y2="818.08" stroke="#b9770e" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<line x1="1220.00" y1="830.00" x2="1209.98" y2="823.40" stroke="#b9770e" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<text x="1180.00" y="760.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" fill="#b9770e" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">T_P/T_N</text>
+<line x1="1220.00" y1="900.00" x2="1140.00" y2="900.00" stroke="#2e7d32" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<line x1="1140.00" y1="900.00" x2="1150.88" y2="905.07" stroke="#2e7d32" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<line x1="1140.00" y1="900.00" x2="1150.88" y2="894.93" stroke="#2e7d32" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<text x="1180.00" y="888.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" fill="#2e7d32" text-anchor="middle" font-weight="normal" opacity="1.0" letter-spacing="0">SCK/SO/CS</text>
+<line x1="1220.00" y1="1000.00" x2="1140.00" y2="1000.00" stroke="#c46a2b" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<line x1="1140.00" y1="1000.00" x2="1150.88" y2="1005.07" stroke="#c46a2b" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<line x1="1140.00" y1="1000.00" x2="1150.88" y2="994.93" stroke="#c46a2b" stroke-width="3" opacity="1.0" stroke-linecap="round"/>
+<text x="1180.00" y="988.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="11" fill="#c46a2b" text-anchor="middle" font-weight="normal" opacity="1.0" letter-spacing="0">GATE</text>
+<rect x="40.00" y="1060.00" width="1140.00" height="340.00" rx="8.00" fill="#fdfbf4" stroke="#c9b98a" stroke-width="1.4" opacity="1.0"/>
+<text x="58.00" y="1094.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="17" fill="#1d2a30" text-anchor="start" font-weight="bold" opacity="1.0" letter-spacing="0">KEY NETS &amp; DESIGN NOTES</text>
+<circle cx="66.00" cy="1124.00" r="3.50" fill="#2f8f5b" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="82.00" y="1129.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+5V: J1 VBUS→F1→SW1→F2→J4/J2/Q1; 2A path ≥2mm, star ground at C1-.</text>
+<circle cx="66.00" cy="1157.00" r="3.50" fill="#2f8f5b" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="82.00" y="1162.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">+3V3: U3 AMS1117-3.3→U1/U4/UI; U2 74HCT4053 stays on +5V.</text>
+<circle cx="66.00" cy="1190.00" r="3.50" fill="#2f8f5b" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="82.00" y="1195.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">HEAT_P/HEAT_N: C210 heater + thermocouple series; D2 freewheel; F2 400°C NC.</text>
+<circle cx="66.00" cy="1223.00" r="3.50" fill="#2f8f5b" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="82.00" y="1228.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">T_P/T_N: 4053 X/Y→R9/R10 1k→MAX31855; BAT54S clamp to 3V3/GND; 1M bias.</text>
+<circle cx="66.00" cy="1256.00" r="3.50" fill="#2f8f5b" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="82.00" y="1261.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">GATE/INH: P5.4 high = heater on = 4053 inhibited; R4 1k gate pulldown.</text>
+<circle cx="66.00" cy="1289.00" r="3.50" fill="#2f8f5b" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="82.00" y="1294.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">FAULT: sensor fault bits, T&gt;420°C, &gt;100°C/cycle jump, 10 cycles full duty &amp; T&lt;100°C.</text>
+<circle cx="66.00" cy="1322.00" r="3.50" fill="#2f8f5b" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="82.00" y="1327.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">LED: &lt;300°C 2Hz; 300–400°C solid; &gt;400°C 5Hz + heater off; FAULT 5Hz.</text>
+<circle cx="66.00" cy="1355.00" r="3.50" fill="#2f8f5b" stroke="none" stroke-width="0" opacity="1.0"/>
+<text x="82.00" y="1360.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#1d2a30" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">ISP: P3.0/P3.1 shared with MAX31855; CS high + R17 SO pulldown; no jumper needed.</text>
+<rect x="26.00" y="1470.00" width="2348.00" height="78.00" rx="8.00" fill="#efe6d2" stroke="#b9a57a" stroke-width="1.2" opacity="1.0"/>
+<text x="52.00" y="1502.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#5d6b70" text-anchor="start" font-weight="normal" opacity="1.0" letter-spacing="0">Pin-level netlist: see PCB_DESIGN.md §4. Footprints/placement: PCB_RENDER_NOTES.md.</text>
+<text x="2348.00" y="1502.00" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" fill="#c0392b" text-anchor="end" font-weight="normal" opacity="1.0" letter-spacing="0">Render only — verify with KiCad / LCEDA DRC before fabrication.</text>
+</svg>

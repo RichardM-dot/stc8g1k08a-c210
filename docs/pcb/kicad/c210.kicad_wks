@@ -1,0 +1,76 @@
+(page_layout
+  (setup (textsize 2.2 2.2) (linewidth 0.18) (textlinewidth 0.16)
+    (left_margin 10) (right_margin 10) (top_margin 10) (bottom_margin 10))
+
+  (rect (name "frame_outer") (start 0 0 ltcorner) (end 0 0 rbcorner) (linewidth 0.40))
+  (rect (name "frame_inner") (start 5 5 ltcorner) (end 5 5 rbcorner) (linewidth 0.18))
+
+  (line (name "top_div_1") (start 70 0 ltcorner) (end 70 5 ltcorner) (linewidth 0.18))
+  (line (name "top_div_2") (start 135 0 ltcorner) (end 135 5 ltcorner) (linewidth 0.18))
+  (line (name "top_div_3") (start 200 0 ltcorner) (end 200 5 ltcorner) (linewidth 0.18))
+  (line (name "top_div_4") (start 265 0 ltcorner) (end 265 5 ltcorner) (linewidth 0.18))
+  (line (name "top_div_5") (start 330 0 ltcorner) (end 330 5 ltcorner) (linewidth 0.18))
+
+  (tbtext "1" (name "top_num_1") (pos 37.5 2.5 ltcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "2" (name "top_num_2") (pos 102.5 2.5 ltcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "3" (name "top_num_3") (pos 167.5 2.5 ltcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "4" (name "top_num_4") (pos 232.5 2.5 ltcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "5" (name "top_num_5") (pos 297.5 2.5 ltcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "6" (name "top_num_6") (pos 362.5 2.5 ltcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+
+  (line (name "bot_div_1") (start 70 -5 lbcorner) (end 70 0 lbcorner) (linewidth 0.18))
+  (line (name "bot_div_2") (start 135 -5 lbcorner) (end 135 0 lbcorner) (linewidth 0.18))
+  (line (name "bot_div_3") (start 200 -5 lbcorner) (end 200 0 lbcorner) (linewidth 0.18))
+  (line (name "bot_div_4") (start 265 -5 lbcorner) (end 265 0 lbcorner) (linewidth 0.18))
+  (line (name "bot_div_5") (start 330 -5 lbcorner) (end 330 0 lbcorner) (linewidth 0.18))
+
+  (tbtext "1" (name "bot_num_1") (pos 37.5 -2.5 lbcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "2" (name "bot_num_2") (pos 102.5 -2.5 lbcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "3" (name "bot_num_3") (pos 167.5 -2.5 lbcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "4" (name "bot_num_4") (pos 232.5 -2.5 lbcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "5" (name "bot_num_5") (pos 297.5 -2.5 lbcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "6" (name "bot_num_6") (pos 362.5 -2.5 lbcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+
+  (line (name "left_div_1") (start 0 71.75 ltcorner) (end 5 71.75 ltcorner) (linewidth 0.18))
+  (line (name "left_div_2") (start 0 138.5 ltcorner) (end 5 138.5 ltcorner) (linewidth 0.18))
+  (line (name "left_div_3") (start 0 205.25 ltcorner) (end 5 205.25 ltcorner) (linewidth 0.18))
+
+  (tbtext "A" (name "left_row_A") (pos 2.5 38.375 ltcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "B" (name "left_row_B") (pos 2.5 105.125 ltcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "C" (name "left_row_C") (pos 2.5 171.875 ltcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "D" (name "left_row_D") (pos 2.5 238.625 ltcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+
+  (line (name "right_div_1") (start -5 71.75 rtcorner) (end 0 71.75 rtcorner) (linewidth 0.18))
+  (line (name "right_div_2") (start -5 138.5 rtcorner) (end 0 138.5 rtcorner) (linewidth 0.18))
+  (line (name "right_div_3") (start -5 205.25 rtcorner) (end 0 205.25 rtcorner) (linewidth 0.18))
+
+  (tbtext "A" (name "right_row_A") (pos -2.5 38.375 rtcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "B" (name "right_row_B") (pos -2.5 105.125 rtcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "C" (name "right_row_C") (pos -2.5 171.875 rtcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+  (tbtext "D" (name "right_row_D") (pos -2.5 238.625 rtcorner) (font (linewidth 0.20) (size 2.5 2.5)) (justify center))
+
+  (rect (name "tb_outline") (start 5 5) (end 185 60) (linewidth 0.35))
+
+  (line (name "tb_row_1") (start 5 14) (end 185 14) (linewidth 0.18))
+  (line (name "tb_row_2") (start 5 23) (end 185 23) (linewidth 0.18))
+  (line (name "tb_row_3") (start 5 33) (end 185 33) (linewidth 0.18))
+
+  (line (name "tb_col_1a") (start 147 5) (end 147 14) (linewidth 0.18))
+  (line (name "tb_col_2a") (start 87 5) (end 87 14) (linewidth 0.18))
+  (line (name "tb_col_1b") (start 105 14) (end 105 23) (linewidth 0.18))
+  (line (name "tb_col_2b") (start 45 14) (end 45 23) (linewidth 0.18))
+
+  (tbtext "SIZE A3" (name "tb_size") (pos 166 9.5) (font (linewidth 0.18) (size 2.4 2.4)) (justify center))
+  (tbtext "SHEET 1/1" (name "tb_sheet") (pos 117 9.5) (font (linewidth 0.18) (size 2.4 2.4)) (justify center))
+  (tbtext "FILE c210.kicad_sch" (name "tb_file") (pos 46 9.5) (font (linewidth 0.18) (size 2.4 2.4)) (justify center))
+
+  (tbtext "DESIGNED BY ZCode" (name "tb_designer") (pos 145 18.5) (font (linewidth 0.18) (size 2.4 2.4)) (justify center))
+  (tbtext "DATE 2026-11-21" (name "tb_date") (pos 75 18.5) (font (linewidth 0.18) (size 2.4 2.4)) (justify center))
+  (tbtext "REV 1.0" (name "tb_rev") (pos 25 18.5) (font (linewidth 0.18) (size 2.4 2.4)) (justify center))
+
+  (tbtext "USB-C 5V/3A  |  JBC C210  |  NO DISPLAY" (name "tb_features") (pos 95 28) (font (linewidth 0.18) (size 2.2 2.2)) (justify center))
+
+  (tbtext "ZCODE ENGINEERING / SCHEMATIC" (name "tb_kicker") (pos 95 56.5) (font (linewidth 0.16) (size 1.9 1.9)) (justify center))
+  (tbtext "C210 SOLDERING PEN CONTROLLER" (name "tb_title") (pos 95 48) (font bold (linewidth 0.25) (size 5 5)) (justify center))
+  (tbtext "STC8G1K08A-8PIN + MAX31855 + 74HCT4053" (name "tb_process") (pos 95 39.5) (font (linewidth 0.18) (size 2.4 2.4)) (justify center))
+)

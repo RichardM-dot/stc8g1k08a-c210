@@ -1,0 +1,6 @@
+{
+  "meta": { "filename": "c210.kicad_pro", "version": 1 },
+  "sheets": [ [ "c210.kicad_sch", "" ] ],
+  "libraries": { "pinned_footprint_libs": [], "pinned_symbol_libs": [ "c210" ] },
+  "schematic": { "legacy_lib_dir": "", "legacy_lib_list": [] }
+}

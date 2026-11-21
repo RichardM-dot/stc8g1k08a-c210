@@ -1,0 +1,38 @@
+ERC report (2026-11-21T19:55:08, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'MAX31855' doesn't match copy in library 'c210'
+    ; warning
+    @(90.17 mm, 214.63 mm): Symbol U1 [MAX31855]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(196.85 mm, 185.42 mm): Symbol U2 Pin 4 [Z, Bidirectional, Line]
+    @(394.97 mm, 228.60 mm): Symbol #FLG002 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(222.25 mm, 172.72 mm): Symbol U2 Pin 13 [X1, Bidirectional, Line]
+    @(394.97 mm, 228.60 mm): Symbol #FLG002 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(222.25 mm, 180.34 mm): Symbol U2 Pin 1 [Y1, Bidirectional, Line]
+    @(394.97 mm, 228.60 mm): Symbol #FLG002 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(222.25 mm, 185.42 mm): Symbol U2 Pin 5 [Z0, Bidirectional, Line]
+    @(394.97 mm, 228.60 mm): Symbol #FLG002 Pin 1 [Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(222.25 mm, 187.96 mm): Symbol U2 Pin 3 [Z1, Bidirectional, Line]
+    @(394.97 mm, 228.60 mm): Symbol #FLG002 Pin 1 [Power output, Line]
+[lib_symbol_mismatch]: Symbol 'STC8G1K08A-8PIN' doesn't match copy in library 'c210'
+    ; warning
+    @(224.79 mm, 69.85 mm): Symbol U4 [STC8G1K08A-8PIN]
+
+ ** ERC messages: 7  Errors 0  Warnings 7
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
